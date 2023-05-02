@@ -4,7 +4,7 @@
   "keywords": [
     "codex editor",
     "tool",
-    "link",
+    "externalContent",
     "editor.js",
     "editor"
   ],
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/editor-js/link.git"
+    "url": "git+https://github.com/deweb-io/ExternalContent.git"
   },
   "main": "./dist/bundle.js",
   "scripts": {
@@ -44,9 +44,9 @@
     "webpack-cli": "^3.3.11"
   },
   "bugs": {
-    "url": "https://github.com/editor-js/link/issues"
+    "url": "https://github.com/deweb-io/ExternalContent/issues"
   },
-  "homepage": "https://github.com/editor-js/link#readme",
+  "homepage": "https://github.com/deweb-io/ExternalContent#readme",
   "dependencies": {
     "@babel/runtime": "^7.10.2",
     "@codexteam/icons": "^0.0.4"

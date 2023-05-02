@@ -33,7 +33,7 @@ import { IconLink } from '@codexteam/icons';
  * Tool may have any data provided by backend, currently are supported by design:
  * title, description, image, url
  */
-export default class LinkTool {
+export default class ExternalcontentTool {
   /**
    * Notify core that read-only mode supported
    *
@@ -115,6 +115,7 @@ export default class LinkTool {
    * @returns {HTMLDivElement}
    */
   render() {
+    alert('render');
     this.nodes.wrapper = this.make('div', this.CSS.baseClass);
     this.nodes.container = this.make('div', this.CSS.container);
 
