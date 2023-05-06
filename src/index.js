@@ -33,7 +33,7 @@ import { IconLink } from '@codexteam/icons';
  * Tool may have any data provided by backend, currently are supported by design:
  * title, description, image, url
  */
-export default class ExternalcontentTool {
+export default class Plugin {
   /**
    * Notify core that read-only mode supported
    *
@@ -53,7 +53,7 @@ export default class ExternalcontentTool {
   static get toolbox() {
     return {
       icon: IconLink,
-      title: 'Link',
+      title: 'Plugin',
     };
   }
 
@@ -115,7 +115,7 @@ export default class ExternalcontentTool {
    * @returns {HTMLDivElement}
    */
   render() {
-    alert('render');
+    console.log('plugin render');
     this.nodes.wrapper = this.make('div', this.CSS.baseClass);
     this.nodes.container = this.make('div', this.CSS.container);
 
@@ -145,6 +145,7 @@ export default class ExternalcontentTool {
    * @returns {LinkToolData}
    */
   save() {
+    console.log('plugin save', this.data);
     return this.data;
   }
 

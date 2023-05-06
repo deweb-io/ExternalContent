@@ -1,10 +1,10 @@
 {
-  "name": "@editorjs/link",
-  "version": "2.5.0",
+  "name": "@editorjs/plugin",
+  "version": "0.0.1",
   "keywords": [
     "codex editor",
     "tool",
-    "externalContent",
+    "plugin",
     "editor.js",
     "editor"
   ],
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deweb-io/ExternalContent.git"
+    "url": "git+https://github.com/deweb-io/plugin.git"
   },
   "main": "./dist/bundle.js",
   "scripts": {
@@ -44,9 +44,9 @@
     "webpack-cli": "^3.3.11"
   },
   "bugs": {
-    "url": "https://github.com/deweb-io/ExternalContent/issues"
+    "url": "https://github.com/deweb-io/plugin/issues"
   },
-  "homepage": "https://github.com/deweb-io/ExternalContent#readme",
+  "homepage": "https://github.com/deweb-io/plugin#readme",
   "dependencies": {
     "@babel/runtime": "^7.10.2",
     "@codexteam/icons": "^0.0.4"
