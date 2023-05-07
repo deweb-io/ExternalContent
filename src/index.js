@@ -222,7 +222,7 @@ export default class Plugin {
       contentEditable: !this.readOnly,
     });
 
-    this.nodes.input.dataset.placeholder = this.api.i18n.t('Link');
+    this.nodes.input.dataset.placeholder = this.api.i18n.t('Plugin');
 
     if (!this.readOnly) {
       this.nodes.input.addEventListener('paste', (event) => {
